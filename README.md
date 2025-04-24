@@ -90,14 +90,13 @@ Os dados podem ser salvos e carregados de um arquivo **JSON** utilizando a bibli
 
 ## 📂 Estrutura de Arquivos
 
-\`\`\`text
+```text
 projeto/
 ├── lista02/
 │   └── Lista.java
 ├── gson-2.13.0.jar
 ├── nomes.json           # gerado em tempo de execução
 └── README.md
-\`\`\`
 
 ---
 
@@ -105,35 +104,32 @@ projeto/
 
 ### No Linux/macOS
 
-\`\`\`bash
 # Compile
 javac -cp .:gson-2.13.0.jar lista02/Lista.java
 
 # Execute
 java -cp .:gson-2.13.0.jar lista02.Lista
-\`\`\`
+
 
 ### No Windows (CMD)
 
-\`\`\`bat
 :: Compile
 javac -cp .;gson-2.13.0.jar lista02\Lista.java
 
 :: Execute
 java -cp .;gson-2.13.0.jar lista02.Lista
-\`\`\`
+
 
 ---
 
 ## 📎 Formato do arquivo JSON
 
-\`\`\`json
 [
   "Ana",
   "Carlos",
   "Julia"
 ]
-\`\`\`
+
 
 ---
 
