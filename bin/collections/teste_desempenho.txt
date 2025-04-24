@@ -1,0 +1,49 @@
+---------- Inserção no fim ----------
+
+Execução 1:
+
+Tempo array estático: 11ms
+Tempo ArrayList: 66ms
+Tempo LinkedList: 329ms
+Tempo Vector: 115ms
+
+Execução 2:
+
+Tempo array estático: 7ms
+Tempo ArrayList: 43ms
+Tempo LinkedList: 207ms
+Tempo Vector: 80ms
+
+Execução 3:
+
+Tempo array estático: 19ms
+Tempo ArrayList: 57ms
+Tempo LinkedList: 251ms
+Tempo Vector: 36ms
+
+---------- Inserção no inicio ----------
+
+Execução 1:
+
+Tempo ArrayList: 157558ms
+Tempo LinkedList: 169ms
+Tempo Vector: 159998ms
+
+---------- Remoção do inicio ----------
+
+Tempo ArrayList: 68753ms
+Tempo LinkedList: 20ms
+Tempo Vector: 68601ms
+
+---------- Remoção do final ----------
+
+Tempo ArrayList: 7ms
+Tempo LinkedList: 15ms
+Tempo Vector: 24ms
+
+---------- Consulta de dados ----------
+
+Tempo array estático: 9ms
+Tempo ArrayList: 18ms
+Tempo LinkedList: 127591ms
+Tempo Vector: 19ms
