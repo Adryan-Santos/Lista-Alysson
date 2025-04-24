@@ -97,39 +97,40 @@ projeto/
 ├── gson-2.13.0.jar
 ├── nomes.json           # gerado em tempo de execução
 └── README.md
+```
 
 ---
 
 ## ▶️ Como Compilar e Executar
 
 ### No Linux/macOS
-
+```
 # Compile
 javac -cp .:gson-2.13.0.jar lista02/Lista.java
 
 # Execute
 java -cp .:gson-2.13.0.jar lista02.Lista
-
+```
 
 ### No Windows (CMD)
-
+```
 :: Compile
 javac -cp .;gson-2.13.0.jar lista02\Lista.java
 
 :: Execute
 java -cp .;gson-2.13.0.jar lista02.Lista
-
+```
 
 ---
 
 ## 📎 Formato do arquivo JSON
-
+```
 [
   "Ana",
   "Carlos",
   "Julia"
 ]
-
+```
 
 ---
 
